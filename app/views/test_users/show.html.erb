@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Guid:</strong>
+  <%= @test_user.guid %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @test_user.email %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @test_user.status %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @test_user.desc %>
+</p>
+
+<%= link_to 'Edit', edit_test_user_path(@test_user) %> |
+<%= link_to 'Back', test_users_path %>
